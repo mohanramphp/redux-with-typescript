@@ -9,6 +9,6 @@
  3. host the root directory via ```http-server```
  > Note: if you dont have http-server package. Run this command ```npm i http-server --g``` to install then repeat # 3
 
-## Files
-- ```redux.ts``` - Complete core implementation of redux with TpyeScript.
-- ```redux-observable``` - Observable based redux built with help of flavors of RxJS api.
+## File references
+- [redux.ts](https://github.com/mohanramphp/redux-with-typescript/blob/master/src/redux/redux.ts) - Complete core implementation of redux with TypeScript.
+- [redux-observable.ts](https://github.com/mohanramphp/redux-with-typescript/blob/master/src/redux/redux-observable.ts) - Observable based redux built with help of flavors of RxJS api.
