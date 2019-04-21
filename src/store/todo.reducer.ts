@@ -9,7 +9,7 @@ import {
 export const todoReducer: Reducer<TodoState> = (
     state: TodoState = initialState,
     action: TodoAction
-) => {
+): TodoState => {
     switch (action.type) {
         case TodoActionEnum.AddTodo: {
             return {

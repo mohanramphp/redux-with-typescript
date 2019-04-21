@@ -17,4 +17,4 @@ structure of todostate
 } */
 
 
-export const initialState = { todos: [] };
+export const initialState: TodoState = { todos: [] };

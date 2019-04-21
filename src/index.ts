@@ -1,6 +1,7 @@
+import * as nanoid from 'nanoid';
+
 // import { Store } from './redux/redux-observable';
 import { Store } from './redux/redux';
-import * as nanoid from 'nanoid';
 
 // Planning redux app with following steps
 // 1. Define the structure of our application state
