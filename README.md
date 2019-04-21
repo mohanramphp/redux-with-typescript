@@ -1,7 +1,10 @@
 # Redux with TypeScript #
- This project helps to understand the core concepts of Redux - the data architectute pattern
 
-> This project is written in TypeScript to ensure the complete pattern we built for redux is typesafe.
+ ![Redux Core Concepts](https://raw.githubusercontent.com/mohanramphp/redux-with-typescript/master/blog/img/redux-1.png)
+
+ This project helps us to understand the core concepts of __Redux - the data architectural pattern__
+
+> This project is written in TypeScript to ensure the complete pattern, we built for redux is typesafe.
 
  ## To run this project
  1. Clone this git repository
