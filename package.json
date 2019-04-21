@@ -1,0 +1,35 @@
+{
+    "name": "redux-with-typescript",
+    "version": "0.0.1",
+    "description": "To built Redux data architecture pattern from the scratch with TypeScript",
+    "homepage": "https://mohanramphp.github.io/redux-with-typescript",
+    "scripts": {
+        "prestart": "yarn",
+        "start": "webpack --watch",
+        "dev-server": "webpack-dev-server --hotOnly",
+        "build": "webpack --prod",
+        "predeploy": "yarn run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "keywords": [
+        "redux",
+        "redux from scratch",
+        "reducer",
+        "action",
+        "store"
+    ],
+    "author": "Mohan Ram",
+    "license": "ISC",
+    "devDependencies": {
+        "@webpack-cli/serve": "^0.1.2",
+        "gh-pages": "^2.0.1",
+        "ts-loader": "^5.3.1",
+        "typescript": "^3.2.2",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.10"
+    },
+    "dependencies": {
+        "reflect-metadata": "^0.1.12"
+    }
+}

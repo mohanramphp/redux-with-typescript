@@ -1,0 +1,21 @@
+{
+    "include": [
+        "src/*.ts",
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "./dist",
+        "./node_modules",
+        "./src/gist"
+    ],
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist/",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es5",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+    }
+}
